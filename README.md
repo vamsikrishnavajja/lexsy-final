@@ -3,12 +3,6 @@ Lexsy – AI-Powered Legal Document Assistant
 Lexsy is an AI-driven web application that automates the process of reviewing and completing legal documents.
 It allows users to upload a .docx file, detect and fill placeholders through a conversational assistant, preview the completed document, and download the finalized version — providing a faster, smarter way to handle legal workflows.
 
-Live Application
-
-Frontend: https://lexsy-final.vercel.app￼
-Backend: https://lexsy-final.onrender.com￼
-Repository: https://github.com/vamsikrishnavajja/lexsy-final￼
-
 Key Features
 	•	Upload .docx legal templates.
 	•	Automatically detect and highlight placeholders.
