@@ -1,0 +1,20 @@
+:root { --bg:#0b1022; --fg:#e6ecff; --muted:#a8b1d1; --card:#11183a; --border:#2a3562; }
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.5 system-ui, -apple-system, Segoe UI, Roboto}
+.container{max-width:1100px;margin:0 auto;padding:16px}
+.header{background:#0e1631;border-bottom:1px solid var(--border)}
+.h1{font-size:20px;margin:10px 0}
+.badge{background:#223066;color:#cdd7ff;padding:4px 8px;border-radius:999px;font-size:12px;border:1px solid var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:12px;margin-bottom:12px}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+.grid-2{grid-template-columns:1fr; }
+@media(min-width:900px){ .grid-2{grid-template-columns:1fr 1fr;} }
+.input{width:100%;padding:8px 10px;border-radius:8px;border:1px solid var(--border);background:#0a1433;color:var(--fg)}
+.btn{background:#2a5bd7;border:1px solid #244ec0;color:white;padding:8px 12px;border-radius:8px;cursor:pointer}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+.link{color:#9bc2ff;text-decoration:none;border:1px dashed var(--border);padding:4px 8px;border-radius:8px}
+.muted{color:var(--muted);font-size:12px}
+.preview{background:#0a1128;border:1px solid var(--border);border-radius:8px;padding:10px;white-space:normal}
+.progress{height:6px;background:#0a1433;border:1px solid var(--border);border-radius:999px;overflow:hidden}
+.progress>div{height:100%;background:#3aa675}
+.chat-bubble{max-width:80%;padding:8px 10px;border-radius:12px;background:#192453;border:1px solid var(--border)}
+.chat-bubble.user{background:#244aa5}
